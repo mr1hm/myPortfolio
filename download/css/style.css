@@ -1041,22 +1041,27 @@ h2.menu-item:after {
 -------------------------------------------------------------------*/
 
 .skills-circle {
-    border: 1px black solid;
+    border: 2px solid rgba(241, 241, 241, 0.9);
     border-radius: 50%;
-    width: 100px;
-    height: 200px;
+    width: 150px;
+    height: 175px;
+    justify-content: space-between;
 }
 
 .skillsIcons {
-    font-size: 28px;
+    font-size: 40px;
 }
 
-.skillsIcons-text {
+.javascriptIcon {
+    font-size: 40px;
+}
+
+.mysqlIcon-text {
     font-weight: 500!important;
 }
 
 .reactIcon {
-    font-size: 26px;
+    font-size: 40px;
 }
 
 .htmlIcon {
@@ -1068,15 +1073,15 @@ h2.menu-item:after {
 }
 
 .phpIcon {
-    font-size: 30px;
+    font-size: 44px;
 }
 
 .nodeIcon {
-    font-size: 30px;
+    font-size: 44px;
 }
 
 .awsIcon {
-    font-size: 40px;
+    font-size: 44px;
 }
 
 .about-block {
