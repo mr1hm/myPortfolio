@@ -13,7 +13,7 @@
 /*------------------------------------------------------------------
 
     [Table of contents]
-    
+
     0. General Styles
     1. Preloader
     2. Home Styles
@@ -395,6 +395,10 @@ a:not([href]):not([tabindex]) {
     z-index: -1;
 }
 
+.linkedInIcon,
+.gitHubIcon {
+    font-size: 20px!important;
+}
 
 @-webkit-keyframes bgScroll {
     0% {
@@ -761,10 +765,10 @@ h2.menu-item:after {
 }
 
 .sidebar-menu {
-    background: #111; 
+    background: #111;
     height: 100%;
     left: 0;
-    position: fixed; 
+    position: fixed;
     width: 20%;
 }
 
@@ -996,7 +1000,7 @@ h2.menu-item:after {
 
 .social {
     position: absolute;
-    bottom: 15%;
+    bottom: 22%;
 }
 
 .social li {
@@ -1035,6 +1039,45 @@ h2.menu-item:after {
                         6. ABOUT BLOCK
 
 -------------------------------------------------------------------*/
+
+.skills-circle {
+    border: 1px black solid;
+    border-radius: 50%;
+    width: 100px;
+    height: 200px;
+}
+
+.skillsIcons {
+    font-size: 28px;
+}
+
+.skillsIcons-text {
+    font-weight: 500!important;
+}
+
+.reactIcon {
+    font-size: 26px;
+}
+
+.htmlIcon {
+    color: rgb(219, 92, 33);
+}
+
+.cssIcon {
+    color: rgb(38, 88, 252);
+}
+
+.phpIcon {
+    font-size: 30px;
+}
+
+.nodeIcon {
+    font-size: 30px;
+}
+
+.awsIcon {
+    font-size: 40px;
+}
 
 .about-block {
     position: absolute;
@@ -2783,16 +2826,16 @@ h4.package {
 -------------------------------------------------------------------*/
 
 .buy-now {
-    background-color: #82B441;  
-    color: #FFF; 
-    display: block; 
-    font-size: 13px; 
-    font-weight: 500; 
+    background-color: #82B441;
+    color: #FFF;
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
     left: 50px;
     letter-spacing: 1.5px;
-    padding: 3px 15px; 
+    padding: 3px 15px;
     position: absolute;
-    top: 20px; 
+    top: 20px;
     z-index: 999
 }
 .buy-now:hover {
