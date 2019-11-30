@@ -1042,18 +1042,23 @@ h2.menu-item:after {
 
 .skills-circle {
     border: 2px solid rgba(241, 241, 241, 0.9);
-    border-radius: 50%;
-    width: 150px;
+    /* border-radius: 50%; */
+    width: 50px;
     height: 175px;
     justify-content: space-between;
 }
 
+.skillsIcons,
 .skillsIcons {
     font-size: 40px;
 }
 
 .javascriptIcon {
     font-size: 40px;
+}
+
+#javascriptIcon:hover i {
+    color: rgb(238, 216, 23);
 }
 
 .mysqlIcon-text {
@@ -1064,8 +1069,24 @@ h2.menu-item:after {
     font-size: 40px;
 }
 
+#reactIcon:hover i {
+    color: rgb(98, 241, 252);
+}
+
+#jqueryIcon:hover svg g {
+    fill: #3498db;
+}
+
 .htmlIcon {
     color: rgb(219, 92, 33);
+}
+
+#htmlCssIcon:hover i:nth-child(1) {
+    color: rgb(243, 168, 70);
+}
+
+#htmlCssIcon:hover i:nth-child(2) {
+    color: rgb(23, 41, 207);
 }
 
 .cssIcon {
