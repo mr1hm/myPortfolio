@@ -1059,6 +1059,7 @@ h2.menu-item:after {
 
 #javascriptIcon:hover i {
     color: rgb(238, 216, 23);
+    transition: color 0.25s ease-in;
 }
 
 .mysqlIcon-text {
@@ -1069,12 +1070,22 @@ h2.menu-item:after {
     font-size: 40px;
 }
 
+#reactIcon i {
+    color: black;
+}
+
 #reactIcon:hover i {
     color: rgb(98, 241, 252);
+    transition: color 0.25s ease-in;
+}
+
+#jqueryIcon svg g {
+    fill: black;
 }
 
 #jqueryIcon:hover svg g {
     fill: #3498db;
+    transition: fill 0.25s ease-in;
 }
 
 .htmlIcon {
@@ -1082,11 +1093,13 @@ h2.menu-item:after {
 }
 
 #htmlCssIcon:hover i:nth-child(1) {
-    color: rgb(243, 168, 70);
+    color: rgb(243, 133, 70);
+    transition: color 0.25s ease-in;
 }
 
 #htmlCssIcon:hover i:nth-child(2) {
     color: rgb(23, 41, 207);
+    transition: color 0.25s ease-in;
 }
 
 .cssIcon {
@@ -1095,6 +1108,11 @@ h2.menu-item:after {
 
 .phpIcon {
     font-size: 44px;
+}
+
+#phpIcon:hover i {
+    color: rgb(172, 156, 247);
+    transition: color 0.25s ease-in;
 }
 
 .nodeIcon {
