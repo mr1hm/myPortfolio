@@ -892,6 +892,11 @@ h2.menu-item:after {
     overflow: hidden;
 }
 
+.block-content-no-margin {
+    margin: 0 0 35px;
+    overflow: hidden;
+}
+
 .block-title {
     font-size: 24px;
     text-transform: uppercase;
@@ -1053,6 +1058,11 @@ h2.menu-item:after {
     letter-spacing: 0.5px;
 }
 
+.workLength2 h5 {
+    line-height: 1.7rem;
+    letter-spacing: 0.5px;
+}
+
 .skills-circle {
     border: 2px solid rgba(241, 241, 241, 0.9);
     /* border-radius: 50%; */
@@ -1100,6 +1110,11 @@ h2.menu-item:after {
 #jqueryIcon:hover svg g {
     fill: #3498db;
     transition: fill 0.15s ease-in;
+}
+
+#ubuntuIcon:hover i {
+    color: rgb(228, 111, 43);
+    transition: color 0.25s ease-in;
 }
 
 .htmlIcon {
