@@ -1120,6 +1120,10 @@ h2.menu-item:after {
     font-size: 40px;
 }
 
+.gitHubSkillIcon {
+    margin-left: 10px;
+}
+
 .javascriptIcon {
     font-size: 40px;
 }
