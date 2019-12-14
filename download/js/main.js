@@ -119,6 +119,13 @@
 	    $('.menu-item').removeClass('active');
 	    $('.menu-item.about').addClass('active');
 	});
+	//On Click Open About Me Block
+	$('.aboutMe-block, .menu-item.aboutMe').on('click', () => {
+		$('.content-blocks').removeClass('showx');
+		$('.content-blocks.aboutMe').addClass('showx');
+		$('.menu-item').removeClass('active');
+		$('.menu-item.aboutMe').addClass('active');
+	});
 	//On Click Open Portfolio Block
 	$('.portfolio-block, .menu-item.portfolio').on('click', function() {
 	    $('.content-blocks').removeClass('showx');
