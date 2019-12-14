@@ -1096,7 +1096,7 @@ h2.menu-item:after {
 }
 
 .workLength2 h5 {
-    line-height: 1.7rem;
+    line-height: 1rem;
     letter-spacing: 0.5px;
 }
 
@@ -1665,6 +1665,19 @@ h4.package {
 .portfolio-column:hover .portfolio-content {
     opacity: 1;
     cursor: pointer;
+}
+
+.portfolio-main-img {
+    /* width: 1200px;
+    height: 600px; */
+}
+
+.project-head {
+    margin-bottom: 30px;
+}
+
+.projectGif {
+    background-image: url("https://gfycat.com/scientificwildblueandgoldmackaw");
 }
 
 .portfolio-content {
@@ -2316,6 +2329,13 @@ h4.package {
         left: 702px;
         top: -60px;
     }
+    .aboutMe-block {
+        -ms-transform: rotate(-34deg);
+        -webkit-transform: rotate(-34deg);
+        transform: rotate(-34deg);
+        left: 702px;
+        top: -60px;
+    }
     .portfolio-block {
         -ms-transform: rotate(-34deg);
         -webkit-transform: rotate(-34deg);
@@ -2366,6 +2386,13 @@ h4.package {
         left: 382px;
         top: -151px;
     }
+    .aboutMe-block {
+        -ms-transform: rotate(-34deg);
+        -webkit-transform: rotate(-34deg);
+        transform: rotate(-34deg);
+        left: 872px;
+        top: -192px;
+    }
     .portfolio-block {
         -ms-transform: rotate(-34deg);
         -webkit-transform: rotate(-34deg);
@@ -2414,6 +2441,15 @@ h4.package {
         width: 350px;
         height: 300px;
     }
+    .aboutMe-block {
+        -ms-transform: rotate(-34deg);
+        -webkit-transform: rotate(-34deg);
+        transform: rotate(-34deg);
+        left: 419px;
+        top: -160px;
+        width: 350px;
+        height: 300px;
+    }
     .portfolio-block {
         -ms-transform: rotate(-34deg);
         -webkit-transform: rotate(-34deg);
@@ -2452,6 +2488,13 @@ h4.package {
         top: 10px;
     }
     .about-block {
+        -ms-transform: rotate(-34deg);
+        -webkit-transform: rotate(-34deg);
+        transform: rotate(-34deg);
+        left: 382px;
+        top: -150px;
+    }
+    .aboutMe-block {
         -ms-transform: rotate(-34deg);
         -webkit-transform: rotate(-34deg);
         transform: rotate(-34deg);
@@ -2530,6 +2573,13 @@ h4.package {
         left: 382px;
         top: -150px;
     }
+    .aboutMe-block {
+        -ms-transform: rotate(-34deg);
+        -webkit-transform: rotate(-34deg);
+        transform: rotate(-34deg);
+        left: 382px;
+        top: -150px;
+    }
     .portfolio-block {
         -ms-transform: rotate(-34deg);
         -webkit-transform: rotate(-34deg);
@@ -2587,6 +2637,7 @@ h4.package {
     }
     .name-block,
     .about-block,
+    .aboutMe-block,
     .portfolio-block,
     .blog-block,
     .contact-block {
@@ -2607,6 +2658,7 @@ h4.package {
     }
     .name-block-container,
     .about-block-container,
+    .aboutMe-block-container,
     .portfolio-block-container,
     .blog-block-container,
     .contact-block-container {
@@ -2685,6 +2737,7 @@ h4.package {
     }
     .name-block,
     .about-block,
+    .aboutMe-block,
     .portfolio-block,
     .blog-block,
     .contact-block {
@@ -2704,6 +2757,7 @@ h4.package {
         border-bottom: none;
     }
     .about-block:hover,
+    .aboutMe-block:hover,
     .portfolio-block:hover,
     .blog-block:hover,
     .contact-block:hover {
@@ -2712,6 +2766,7 @@ h4.package {
     }
     .name-block-container,
     .about-block-container,
+    .aboutMe-block-container,
     .portfolio-block-container,
     .blog-block-container,
     .contact-block-container {
