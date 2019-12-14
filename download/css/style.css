@@ -618,16 +618,20 @@ h2.about.menu-item:before {
     content: '01';
 }
 
-h2.portfolio.menu-item:before {
-    content: '02';
+h2.aboutMe.menu-item:before {
+    content: '02'
 }
 
-h2.blog.menu-item:before {
+h2.portfolio.menu-item:before {
     content: '03';
 }
 
-h2.contact.menu-item:before {
+h2.blog.menu-item:before {
     content: '04';
+}
+
+h2.contact.menu-item:before {
+    content: '05';
 }
 
 .menu-block:hover h2.menu-item:before {
@@ -1041,6 +1045,39 @@ h2.menu-item:after {
 
 /*-------------------------------------------------------------------
 
+                        6. ABOUT ME BLOCK
+
+-------------------------------------------------------------------*/
+
+.aboutMe-block {
+    position: absolute;
+    width: 430px;
+    height: 300px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    display: table;
+    transition: all 0.5s;
+    z-index: 99;
+}
+
+.dark .aboutMe-block {
+    border: 1px solid rgba(51, 51, 51, 0.4);
+}
+
+.aboutMe-block:hover {
+    border: 15px solid rgba(255, 255, 255, 0.1);
+}
+
+.aboutMe-block-container {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 150px 0 0 70px;
+    -ms-transform: rotate(34deg);
+    -webkit-transform: rotate(34deg);
+    transform: rotate(34deg);
+}
+
+/*-------------------------------------------------------------------
+
                         6. ABOUT BLOCK
 
 -------------------------------------------------------------------*/
@@ -1059,7 +1096,7 @@ h2.menu-item:after {
 }
 
 .workLength2 h5 {
-    line-height: 1.7rem;
+    line-height: 1rem;
     letter-spacing: 0.5px;
 }
 
@@ -1628,6 +1665,19 @@ h4.package {
 .portfolio-column:hover .portfolio-content {
     opacity: 1;
     cursor: pointer;
+}
+
+.portfolio-main-img {
+    /* width: 1200px;
+    height: 600px; */
+}
+
+.project-head {
+    margin-bottom: 30px;
+}
+
+.projectGif {
+    background-image: url("https://gfycat.com/scientificwildblueandgoldmackaw");
 }
 
 .portfolio-content {
@@ -2279,6 +2329,13 @@ h4.package {
         left: 702px;
         top: -60px;
     }
+    .aboutMe-block {
+        -ms-transform: rotate(-34deg);
+        -webkit-transform: rotate(-34deg);
+        transform: rotate(-34deg);
+        left: 702px;
+        top: -60px;
+    }
     .portfolio-block {
         -ms-transform: rotate(-34deg);
         -webkit-transform: rotate(-34deg);
@@ -2329,6 +2386,13 @@ h4.package {
         left: 382px;
         top: -151px;
     }
+    .aboutMe-block {
+        -ms-transform: rotate(-34deg);
+        -webkit-transform: rotate(-34deg);
+        transform: rotate(-34deg);
+        left: 872px;
+        top: -192px;
+    }
     .portfolio-block {
         -ms-transform: rotate(-34deg);
         -webkit-transform: rotate(-34deg);
@@ -2377,6 +2441,15 @@ h4.package {
         width: 350px;
         height: 300px;
     }
+    .aboutMe-block {
+        -ms-transform: rotate(-34deg);
+        -webkit-transform: rotate(-34deg);
+        transform: rotate(-34deg);
+        left: 419px;
+        top: -160px;
+        width: 350px;
+        height: 300px;
+    }
     .portfolio-block {
         -ms-transform: rotate(-34deg);
         -webkit-transform: rotate(-34deg);
@@ -2415,6 +2488,13 @@ h4.package {
         top: 10px;
     }
     .about-block {
+        -ms-transform: rotate(-34deg);
+        -webkit-transform: rotate(-34deg);
+        transform: rotate(-34deg);
+        left: 382px;
+        top: -150px;
+    }
+    .aboutMe-block {
         -ms-transform: rotate(-34deg);
         -webkit-transform: rotate(-34deg);
         transform: rotate(-34deg);
@@ -2493,6 +2573,13 @@ h4.package {
         left: 382px;
         top: -150px;
     }
+    .aboutMe-block {
+        -ms-transform: rotate(-34deg);
+        -webkit-transform: rotate(-34deg);
+        transform: rotate(-34deg);
+        left: 382px;
+        top: -150px;
+    }
     .portfolio-block {
         -ms-transform: rotate(-34deg);
         -webkit-transform: rotate(-34deg);
@@ -2550,6 +2637,7 @@ h4.package {
     }
     .name-block,
     .about-block,
+    .aboutMe-block,
     .portfolio-block,
     .blog-block,
     .contact-block {
@@ -2570,6 +2658,7 @@ h4.package {
     }
     .name-block-container,
     .about-block-container,
+    .aboutMe-block-container,
     .portfolio-block-container,
     .blog-block-container,
     .contact-block-container {
@@ -2648,6 +2737,7 @@ h4.package {
     }
     .name-block,
     .about-block,
+    .aboutMe-block,
     .portfolio-block,
     .blog-block,
     .contact-block {
@@ -2667,6 +2757,7 @@ h4.package {
         border-bottom: none;
     }
     .about-block:hover,
+    .aboutMe-block:hover,
     .portfolio-block:hover,
     .blog-block:hover,
     .contact-block:hover {
@@ -2675,6 +2766,7 @@ h4.package {
     }
     .name-block-container,
     .about-block-container,
+    .aboutMe-block-container,
     .portfolio-block-container,
     .blog-block-container,
     .contact-block-container {
