@@ -1049,6 +1049,12 @@ h2.menu-item:after {
 
 -------------------------------------------------------------------*/
 
+.profile-picture {
+    margin-bottom: 30px;
+    width: 600px;
+    height: 400px;
+}
+
 .aboutMe-block {
     position: absolute;
     width: 430px;
