@@ -834,6 +834,10 @@ h2.menu-item:after {
 
 -------------------------------------------------------------------*/
 
+.project-title {
+    padding-top: 15px;
+}
+
 .content-blocks {
     position: fixed;
     width: 70%;
