@@ -42,7 +42,7 @@ body {
     color: #727272;
     font-size: 16px;
     font-weight: 300;
-    line-height: 2.2;
+    /* line-height: 2.2; */
     overflow-x: hidden;
 }
 
@@ -661,6 +661,7 @@ h2.menu-item:after {
 
 .menu-block:hover {
     background: rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
 }
 
 /* --- Inline Menu --- */
@@ -978,8 +979,9 @@ h2.menu-item:after {
 
 .name-block-container {
     display: table-cell;
-    vertical-align: middle;
+    /* vertical-align: middle; */
     padding-left: 240px;
+    padding-top: 50px;
     -ms-transform: rotate(34deg);
     -webkit-transform: rotate(34deg);
     transform: rotate(34deg);
@@ -1062,7 +1064,7 @@ h2.menu-item:after {
 .aboutMe-block {
     position: absolute;
     width: 430px;
-    height: 300px;
+    height: 255px;
     border: 1px solid rgba(255, 255, 255, 0.4);
     display: table;
     transition: all 0.5s;
@@ -1075,6 +1077,7 @@ h2.menu-item:after {
 
 .aboutMe-block:hover {
     border: 15px solid rgba(255, 255, 255, 0.1);
+    box-sizing: border-box;
 }
 
 .aboutMe-block-container {
@@ -1101,12 +1104,12 @@ h2.menu-item:after {
 }
 
 .workLength h5 {
-    line-height: 1rem;
+    line-height: 1.5rem;
     letter-spacing: 0.5px;
 }
 
 .workLength2 h5 {
-    line-height: 1rem;
+    line-height: 1.5rem;
     letter-spacing: 0.5px;
 }
 
@@ -1131,6 +1134,7 @@ h2.menu-item:after {
 
 .javascriptIcon {
     font-size: 40px;
+    /* color: rgb(238, 216, 23); */
 }
 
 #javascriptIcon:hover i {
@@ -1147,7 +1151,7 @@ h2.menu-item:after {
 }
 
 #reactIcon i {
-    color: black;
+    /* color: rgb(98, 241, 252);; */
 }
 
 #reactIcon:hover i {
@@ -1170,11 +1174,11 @@ h2.menu-item:after {
 }
 
 .htmlIcon {
-    color: rgb(219, 92, 33);
+    color: rgb(223, 86, 23);
 }
 
 #htmlCssIcon:hover i:nth-child(1) {
-    color: rgb(243, 133, 70);
+    color: rgb(223, 86, 23);
     transition: color 0.25s ease-in;
 }
 
@@ -2413,6 +2417,10 @@ h4.package {
         max-width: 90%;
         height: auto;
     }
+    .name-block-container {
+        padding-left: 240px;
+        padding-top: 240px;
+    }
     .name-block {
         -ms-transform: rotate(-34deg);
         -webkit-transform: rotate(-34deg);
@@ -2424,15 +2432,18 @@ h4.package {
         -ms-transform: rotate(-34deg);
         -webkit-transform: rotate(-34deg);
         transform: rotate(-34deg);
-        left: 382px;
-        top: -151px;
+        left: 380px;
+        top: -156px;
+        height: 306px;
     }
     .aboutMe-block {
         -ms-transform: rotate(-34deg);
         -webkit-transform: rotate(-34deg);
         transform: rotate(-34deg);
-        left: 872px;
-        top: -192px;
+        left: 870px;
+        top: -196px;
+        width: 430px;
+        height: 306px;
     }
     .portfolio-block {
         -ms-transform: rotate(-34deg);
@@ -2496,10 +2507,13 @@ h4.package {
         -ms-transform: rotate(-34deg);
         -webkit-transform: rotate(-34deg);
         transform: rotate(-34deg);
-        left: 419px;
-        top: -160px;
+        left: 400px;
+        top: 435px;
         width: 350px;
         height: 300px;
+    }
+    .aboutMe-block-container {
+        padding: 10px 0 0 30px;
     }
     .portfolio-block {
         -ms-transform: rotate(-34deg);
@@ -2543,19 +2557,32 @@ h4.package {
         left: -190px;
         top: 10px;
     }
+    .name-block-container {
+        padding-left: 240px;
+        padding-top: 120px;
+    }
     .about-block {
         -ms-transform: rotate(-34deg);
         -webkit-transform: rotate(-34deg);
         transform: rotate(-34deg);
-        left: 382px;
-        top: -150px;
+        left: 381px;
+        top: -156px;
+        width: 430px;
+        height: 306px;
     }
     .aboutMe-block {
         -ms-transform: rotate(-34deg);
         -webkit-transform: rotate(-34deg);
         transform: rotate(-34deg);
-        left: 382px;
-        top: -150px;
+        left: 287px;
+        top: 264px;
+        width: 300px;
+        height: 300px;
+        box-sizing: border-box;
+    }
+    .aboutMe-block-container {
+        padding: 100px 0 0 50px;
+        width: 50px;
     }
     .portfolio-block {
         -ms-transform: rotate(-34deg);
@@ -2575,8 +2602,8 @@ h4.package {
         -ms-transform: rotate(-34deg);
         -webkit-transform: rotate(-34deg);
         transform: rotate(-34deg);
-        left: 365px;
-        top: 538px;
+        left: 363px;
+        top: 540px;
     }
 }
 
@@ -2744,8 +2771,11 @@ h4.package {
         -ms-transform: rotate(-34deg);
         -webkit-transform: rotate(-34deg);
         transform: rotate(-34deg);
-        left: 382px;
-        top: -150px;
+        left: 773px;
+        top: 428px;
+    }
+    .aboutMe-block-container {
+        padding: 65px 170px 0 15px;
     }
     .portfolio-block {
         -ms-transform: rotate(-34deg);
