@@ -2611,8 +2611,8 @@ h4.package {
     }
     .inline-menu-container {
         font-size: 13px;
-        right: 10px;
-        width: 69%;
+        right: 0px;
+        width: 70%;
     }
     .inline-menu li {
         padding: 0 5px;
