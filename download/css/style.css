@@ -3337,6 +3337,15 @@ h4.package {
 }
 
 @media (max-width:576px) {
+    .tags {
+        font-size: 14px;
+    }
+    .project-nav .open-project {
+        font-size: 14px;
+    }
+    .project-nav i {
+        font-size: 14px;
+    }
     .profile-picture {
         margin-bottom: 30px;
         max-width: 90%;
@@ -3508,6 +3517,12 @@ h4.package {
 }
 
 @media (max-width:375px) {
+    .project-nav .open-project {
+        font-size: 14px;
+    }
+    .project-nav i {
+        font-size: 14px;
+    }
     .tags {
         font-size: 14px;
     }
