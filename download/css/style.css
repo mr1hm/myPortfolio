@@ -3061,21 +3061,49 @@ h4.package {
     .content {
         padding: 120px 50px 50px;
     }
+    .block-title {
+        font-size: 26px;
+    }
+    .subheading {
+        font-size: 22px;
+    }
+    .block-content > p {
+        font-size: 16px;
+    }
+    .block-content > .row > .col {
+        font-size: 16px;
+    }
+    .info-list {
+        font-size: 16px;
+    }
+    .exp > p {
+        font-size: 16px;
+    }
+    .filters {
+        text-align: center;
+    }
+    .filters ul li {
+        font-size: 14px;
+        padding: 2px 3px 2px 0px;
+    }
     #close i {
         font-size: 24px;
         vertical-align: middle;
     }
     .workTitle h4 {
+        font-size: 18px;
         letter-spacing: 0.5px;
     }
     .workTitle {
         padding-left: 0;
     }
     .workLength h5 {
+        font-size: 16px;
         line-height: 1rem;
         letter-spacing: 0.5px;
     }
     .workLength2 h5 {
+        font-size: 16px;
         line-height: 1rem;
         letter-spacing: 0.5px;
     }
@@ -3091,7 +3119,7 @@ h4.package {
     .skills-circle {
         /* border: 2px solid rgba(241, 241, 241, 0.9); */
         /* border-radius: 50%; */
-        width: 65px;
+        width: 69px;
         height: 115px;
         justify-content: space-between;
         border-radius: 5px;
@@ -3104,7 +3132,7 @@ h4.package {
         font-size: 25px;
     }
     .gitHubSkillIcon {
-        margin-left: 10px;
+        margin-left: 5px;
     }
     .javascriptIcon {
         font-size: 25px;
@@ -3170,7 +3198,7 @@ h4.package {
         font-size: 29px;
     }
     .awsIcon {
-        font-size: 29px;
+        font-size: 26px;
     }
 }
 
