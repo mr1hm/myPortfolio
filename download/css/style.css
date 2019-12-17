@@ -3508,6 +3508,9 @@ h4.package {
 }
 
 @media (max-width:375px) {
+    .tags {
+        font-size: 14px;
+    }
     .profile-picture {
         margin-bottom: 30px;
         max-width: 90%;
