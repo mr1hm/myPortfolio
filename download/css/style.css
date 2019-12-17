@@ -3221,10 +3221,12 @@ h4.package {
         padding-left: 0;
     }
     .workLength h5 {
+        font-size: 12px!important;
         line-height: 1rem;
         letter-spacing: 0.5px;
     }
     .workLength2 h5 {
+        font-size: 12px!important;
         line-height: 1rem;
         letter-spacing: 0.5px;
     }
@@ -3350,7 +3352,7 @@ h4.package {
         font-size: 12px;
     }
     .filters ul li {
-        font-size: 12px;
+        font-size: 11px;
     }
     #blog-social li:first-child {
         display: block;
@@ -3369,10 +3371,12 @@ h4.package {
         padding-left: 0;
     }
     .workLength h5 {
+        font-size: 12px!important;
         line-height: 1rem;
         letter-spacing: 0.5px;
     }
     .workLength2 h5 {
+        font-size: 12px!important;
         line-height: 1rem;
         letter-spacing: 0.5px;
     }
