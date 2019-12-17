@@ -1581,6 +1581,22 @@ h4.package {
 
 -------------------------------------------------------------------*/
 
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 103%;
+    height: 100%;
+}
+
 .portfolio-block {
     position: absolute;
     width: 430px;
@@ -1811,7 +1827,7 @@ h4.package {
     margin-bottom: 30px;
 }
 
-.video-container {
+/* .video-container {
     margin-bottom: 20px;
     padding: 0 0 56.25%;
     position: relative;
@@ -1825,7 +1841,7 @@ h4.package {
     position: absolute;
     top: 0;
     width: 100%;
-}
+} */
 
 .carousel {
     position: relative;
