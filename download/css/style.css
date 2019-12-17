@@ -3765,6 +3765,173 @@ h4.package {
     .skills-circle {
         /* border: 2px solid rgba(241, 241, 241, 0.9); */
         /* border-radius: 50%; */
+        width: 75px;
+        height: 115px;
+        justify-content: space-between;
+        border-radius: 5px;
+    }
+    .skills-circle > label {
+        font-size: 9px;
+    }
+    .skillsIcons,
+    .skillsIcons {
+        font-size: 25px;
+    }
+    .gitIcon {
+        font-size: 25px;
+    }
+    .gitHubSkillIcon {
+        font-size: 25px;
+        margin-left: 5px;
+    }
+    .javascriptIcon {
+        font-size: 25px;
+    }
+    #javascriptIcon:hover i {
+        color: rgb(238, 216, 23);
+        transition: color 0.25s ease-in;
+    }
+    .mysqlIcon-text {
+        font-weight: 500!important;
+    }
+    #sqlIcon svg {
+        width: 33px;
+        height: 33px;
+    }
+    .reactIcon {
+        font-size: 25px;
+    }
+    #reactIcon i {
+        color: black;
+    }
+    #reactIcon:hover i {
+        color: rgb(98, 241, 252);
+        transition: color 0.25s ease-in;
+    }
+    #jqueryIcon svg g {
+        fill: black;
+    }
+    #jqueryIcon svg {
+        width: 25;
+        height: 22;
+    }
+    #jqueryIcon:hover svg g {
+        fill: #3498db;
+        transition: fill 0.15s ease-in;
+    }
+    #ubuntuIcon:hover i {
+        color: rgb(228, 111, 43);
+        transition: color 0.25s ease-in;
+    }
+    .htmlIcon {
+        color: rgb(219, 92, 33);
+    }
+    #htmlCssIcon:hover i:nth-child(1) {
+        color: rgb(243, 133, 70);
+        transition: color 0.25s ease-in;
+    }
+    #htmlCssIcon:hover i:nth-child(2) {
+        color: rgb(23, 41, 207);
+        transition: color 0.25s ease-in;
+    }
+    .cssIcon {
+        color: rgb(38, 88, 252);
+    }
+    .phpIcon {
+        font-size: 29px;
+    }
+    #phpIcon:hover i {
+        color: rgb(172, 156, 247);
+        transition: color 0.25s ease-in;
+    }
+    .nodeIcon {
+        font-size: 29px;
+    }
+    .awsIcon {
+        font-size: 29px;
+    }
+}
+
+@media (max-width:360px) {
+    .project-description {
+        font-size: 14px;
+    }
+    .tags {
+        font-size: 12px;
+    }
+    .project-nav .open-project {
+        font-size: 14px;
+    }
+    .project-nav i {
+        font-size: 16px;
+    }
+    .profile-picture {
+        margin-bottom: 30px;
+        max-width: 90%;
+        height: auto;
+    }
+    .inline-menu-container {
+        font-size: 12px;
+    }
+    .block-title {
+        font-size: 20px;
+    }
+    .subheading {
+        font-size: 24px;
+    }
+    .block-content > p {
+        font-size: 12px;
+    }
+    .block-content > .row > .col {
+        font-size: 12px;
+    }
+    .info-list {
+        font-size: 14px;
+    }
+    .exp > p {
+        font-size: 12px;
+    }
+    .filters ul li {
+        font-size: 11px;
+    }
+    #blog-social li:first-child {
+        display: block;
+    }
+    .comment .col-sm-2 {
+        padding: 0;
+    }
+    #close i {
+        font-size: 24px;
+        vertical-align: middle;
+    }
+    .workTitle h4 {
+        letter-spacing: 0.5px;
+    }
+    .workTitle {
+        padding-left: 0;
+    }
+    .workLength h5 {
+        font-size: 12px!important;
+        line-height: 1rem;
+        letter-spacing: 0.5px;
+    }
+    .workLength2 h5 {
+        font-size: 12px!important;
+        line-height: 1rem;
+        letter-spacing: 0.5px;
+    }
+    .block-content-no-margin {
+        margin-bottom: 10px;
+    }
+    .resume-skills {
+        margin: 0;
+    }
+    .last-skills-row {
+        margin-bottom: 30px;
+    }
+    .skills-circle {
+        /* border: 2px solid rgba(241, 241, 241, 0.9); */
+        /* border-radius: 50%; */
         width: 55px;
         height: 115px;
         justify-content: space-between;
