@@ -2801,6 +2801,76 @@ h4.package {
     }
 }
 
+@media (max-width:812px) and (orientation:landscape) {
+    .profile-picture {
+        margin-bottom: 30px;
+        max-width: 90%;
+        height: auto;
+    }
+    .home {
+        background: url(../images/bg.jpg) #333 30% 30%;
+        overflow-y: scroll;
+    }
+    .name-block,
+    .about-block,
+    .aboutMe-block,
+    .portfolio-block,
+    .blog-block,
+    .contact-block {
+        position: relative;
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        width: 100%;
+        height: auto;
+        border: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+        display: table;
+        left: 0;
+        top: 0;
+    }
+    .contact-block {
+        border-bottom: none;
+    }
+    .name-block-container,
+    .about-block-container,
+    .aboutMe-block-container,
+    .portfolio-block-container,
+    .blog-block-container,
+    .contact-block-container {
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        padding: 0 0 0 0;
+    }
+    h2.menu-item {
+        line-height: 3em;
+        margin-bottom: 0;
+        display: block;
+    }
+    h2.menu-item:after {
+        position: absolute;
+        content: '';
+        top: 15px;
+        left: -20px;
+        width: 70px;
+        height: 1px;
+        background: #FFF;
+        transition: all 0.5s ease;
+    }
+    .social {
+        position: relative;
+        margin: 50px 0;
+    }
+    .inline-menu-container {
+        width: 100%;
+        left: 0;
+    }
+    .content-blocks {
+        height: 100vh;
+    }
+}
+
 @media (max-width:800px) and (orientation:landscape) {
     .profile-picture {
         margin-bottom: 30px;
