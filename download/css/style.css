@@ -2622,20 +2622,23 @@ h4.package {
     .skills-circle {
         /* border: 2px solid rgba(241, 241, 241, 0.9); */
         /* border-radius: 50%; */
-        width: 25px;
-        height: 175px;
+        width: 105px;
+        height: 150px;
         justify-content: space-between;
         border-radius: 5px;
     }
+    .skills-circle > label {
+        font-size: 14px;
+    }
     .skillsIcons,
     .skillsIcons {
-        font-size: 40px;
+        font-size: 30px;
     }
     .gitHubSkillIcon {
         margin-left: 10px;
     }
     .javascriptIcon {
-        font-size: 40px;
+        font-size: 30px;
     }
     #javascriptIcon:hover i {
         color: rgb(238, 216, 23);
@@ -2645,7 +2648,7 @@ h4.package {
         font-weight: 500!important;
     }
     .reactIcon {
-        font-size: 40px;
+        font-size: 30px;
     }
     #reactIcon i {
         color: black;
@@ -2656,6 +2659,10 @@ h4.package {
     }
     #jqueryIcon svg g {
         fill: black;
+    }
+    #jqueryIcon svg {
+        width: 28px;
+        height: 28px;
     }
     #jqueryIcon:hover svg g {
         fill: #3498db;
@@ -2680,17 +2687,17 @@ h4.package {
         color: rgb(38, 88, 252);
     }
     .phpIcon {
-        font-size: 44px;
+        font-size: 34px;
     }
     #phpIcon:hover i {
         color: rgb(172, 156, 247);
         transition: color 0.25s ease-in;
     }
     .nodeIcon {
-        font-size: 44px;
+        font-size: 34px;
     }
     .awsIcon {
-        font-size: 44px;
+        font-size: 34px;
     }
 }
 
