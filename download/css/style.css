@@ -1131,6 +1131,7 @@ h2.menu-item:after {
 
 .javascriptIcon {
     font-size: 40px;
+    /* color: rgb(238, 216, 23); */
 }
 
 #javascriptIcon:hover i {
@@ -1147,7 +1148,7 @@ h2.menu-item:after {
 }
 
 #reactIcon i {
-    color: black;
+    /* color: rgb(98, 241, 252);; */
 }
 
 #reactIcon:hover i {
@@ -1170,11 +1171,11 @@ h2.menu-item:after {
 }
 
 .htmlIcon {
-    color: rgb(219, 92, 33);
+    color: rgb(223, 86, 23);
 }
 
 #htmlCssIcon:hover i:nth-child(1) {
-    color: rgb(243, 133, 70);
+    color: rgb(223, 86, 23);
     transition: color 0.25s ease-in;
 }
 
