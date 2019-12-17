@@ -3182,19 +3182,26 @@ h4.package {
         font-size: 20px;
     }
     .subheading {
-        font-size: 24px;
+        font-size: 18px;
     }
     .block-content > p {
-        font-size: 12px;
+        font-size: 14px;
     }
     .block-content > .row > .col {
-        font-size: 12px;
+        font-size: 14px;
     }
     .info-list {
         font-size: 14px;
     }
     .exp > p {
+        font-size: 14px;
+    }
+    .filters {
+        text-align: center;
+    }
+    .filters ul li {
         font-size: 12px;
+        padding: 2px 3px 2px 0px;
     }
 	.home {
 		position: relative;
@@ -3207,7 +3214,7 @@ h4.package {
         vertical-align: middle;
     }
     .workTitle h4 {
-        font-size: 14px;
+        font-size: 16px;
         letter-spacing: 0.5px;
     }
     .workTitle {
@@ -3340,6 +3347,9 @@ h4.package {
         font-size: 14px;
     }
     .exp > p {
+        font-size: 12px;
+    }
+    .filters ul li {
         font-size: 12px;
     }
     #blog-social li:first-child {
