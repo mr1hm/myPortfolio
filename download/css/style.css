@@ -4020,6 +4020,18 @@ h4.package {
 }
 
 @media (max-width:320px) {
+    .project-description {
+        font-size: 14px;
+    }
+    .tags {
+        font-size: 12px;
+    }
+    .project-nav .open-project {
+        font-size: 14px;
+    }
+    .project-nav i {
+        font-size: 16px;
+    }
     .profile-picture {
         margin-bottom: 30px;
         max-width: 90%;
