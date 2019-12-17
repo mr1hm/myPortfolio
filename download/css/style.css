@@ -1055,7 +1055,7 @@ h2.menu-item:after {
 
 .profile-picture {
     margin-bottom: 30px;
-    width: 600px;
+    max-width: 600px;
     height: 400px;
 }
 
@@ -1581,6 +1581,22 @@ h4.package {
 
 -------------------------------------------------------------------*/
 
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 103%;
+    height: 100%;
+}
+
 .portfolio-block {
     position: absolute;
     width: 430px;
@@ -1811,7 +1827,7 @@ h4.package {
     margin-bottom: 30px;
 }
 
-.video-container {
+/* .video-container {
     margin-bottom: 20px;
     padding: 0 0 56.25%;
     position: relative;
@@ -1825,7 +1841,7 @@ h4.package {
     position: absolute;
     top: 0;
     width: 100%;
-}
+} */
 
 .carousel {
     position: relative;
@@ -2330,6 +2346,11 @@ h4.package {
 -------------------------------------------------------------------*/
 
 @media (min-width:1920px) {
+    .profile-picture {
+        margin-bottom: 30px;
+        max-width: 90%;
+        height: auto;
+    }
     .name-block {
         -ms-transform: rotate(-34deg);
         -webkit-transform: rotate(-34deg);
@@ -2387,6 +2408,11 @@ h4.package {
 }
 
 @media (min-width:1280px) and (max-width:1919px) {
+    .profile-picture {
+        margin-bottom: 30px;
+        max-width: 90%;
+        height: auto;
+    }
     .name-block {
         -ms-transform: rotate(-34deg);
         -webkit-transform: rotate(-34deg);
@@ -2432,6 +2458,11 @@ h4.package {
 }
 
 @media (max-width:1280px) {
+    .profile-picture {
+        margin-bottom: 30px;
+        max-width: 90%;
+        height: auto;
+    }
     .inline-menu-container,
     .close-pop {
         right: 0;
@@ -2440,6 +2471,11 @@ h4.package {
 }
 
 @media (min-width:1025px) and (max-width:1280px) {
+    .profile-picture {
+        margin-bottom: 30px;
+        max-width: 90%;
+        height: auto;
+    }
     .name-block {
         -ms-transform: rotate(-34deg);
         -webkit-transform: rotate(-34deg);
@@ -2495,6 +2531,11 @@ h4.package {
 }
 
 @media (min-width:981px) and (max-width:1024px) {
+    .profile-picture {
+        margin-bottom: 30px;
+        max-width: 90%;
+        height: auto;
+    }
     .name-block {
         -ms-transform: rotate(-34deg);
         -webkit-transform: rotate(-34deg);
@@ -2540,6 +2581,14 @@ h4.package {
 }
 
 @media (max-width:1024px) {
+    .social {
+        bottom: 10%;
+    }
+    .profile-picture {
+        margin-bottom: 30px;
+        max-width: 90%;
+        height: auto;
+    }
     .name-block-container h1 {
         font-size: 40px;
         line-height: 1.1;
@@ -2562,8 +2611,8 @@ h4.package {
     }
     .inline-menu-container {
         font-size: 13px;
-        right: 10px;
-        width: 69%;
+        right: 0px;
+        width: 70%;
     }
     .inline-menu li {
         padding: 0 5px;
@@ -2582,30 +2631,33 @@ h4.package {
         padding-left: 0;
     }
     .workLength h5 {
-        line-height: 1rem;
+        line-height: 1.9em;
         letter-spacing: 0.5px;
     }
     .workLength2 h5 {
-        line-height: 1rem;
+        line-height: 1.9em;
         letter-spacing: 0.5px;
     }
     .skills-circle {
         /* border: 2px solid rgba(241, 241, 241, 0.9); */
         /* border-radius: 50%; */
-        width: 25px;
-        height: 175px;
+        width: 105px;
+        height: 150px;
         justify-content: space-between;
         border-radius: 5px;
     }
+    .skills-circle > label {
+        font-size: 14px;
+    }
     .skillsIcons,
     .skillsIcons {
-        font-size: 40px;
+        font-size: 30px;
     }
     .gitHubSkillIcon {
         margin-left: 10px;
     }
     .javascriptIcon {
-        font-size: 40px;
+        font-size: 30px;
     }
     #javascriptIcon:hover i {
         color: rgb(238, 216, 23);
@@ -2615,7 +2667,7 @@ h4.package {
         font-weight: 500!important;
     }
     .reactIcon {
-        font-size: 40px;
+        font-size: 30px;
     }
     #reactIcon i {
         color: black;
@@ -2626,6 +2678,10 @@ h4.package {
     }
     #jqueryIcon svg g {
         fill: black;
+    }
+    #jqueryIcon svg {
+        width: 28px;
+        height: 28px;
     }
     #jqueryIcon:hover svg g {
         fill: #3498db;
@@ -2650,21 +2706,26 @@ h4.package {
         color: rgb(38, 88, 252);
     }
     .phpIcon {
-        font-size: 44px;
+        font-size: 34px;
     }
     #phpIcon:hover i {
         color: rgb(172, 156, 247);
         transition: color 0.25s ease-in;
     }
     .nodeIcon {
-        font-size: 44px;
+        font-size: 34px;
     }
     .awsIcon {
-        font-size: 44px;
+        font-size: 34px;
     }
 }
 
 @media (min-width:768px) and (max-width:980px) {
+    .profile-picture {
+        margin-bottom: 30px;
+        max-width: 90%;
+        height: auto;
+    }
     .name-block {
         -ms-transform: rotate(-34deg);
         -webkit-transform: rotate(-34deg);
@@ -2713,7 +2774,11 @@ h4.package {
 }
 
 @media (max-width:980px) {
-
+    .profile-picture {
+        margin-bottom: 30px;
+        max-width: 90%;
+        height: auto;
+    }
     .inline-menu {
         margin-top: 5px;
     }
@@ -2736,7 +2801,12 @@ h4.package {
     }
 }
 
-@media (max-width:800px) and (orientation:landscape) {
+@media (max-width:812px) and (orientation:landscape) {
+    .profile-picture {
+        margin-bottom: 30px;
+        max-width: 90%;
+        height: auto;
+    }
     .home {
         background: url(../images/bg.jpg) #333 30% 30%;
         overflow-y: scroll;
@@ -2801,7 +2871,226 @@ h4.package {
     }
 }
 
+@media (max-width:800px) and (orientation:landscape) {
+    .profile-picture {
+        margin-bottom: 30px;
+        max-width: 90%;
+        height: auto;
+    }
+    .home {
+        background: url(../images/bg.jpg) #333 30% 30%;
+        overflow-y: scroll;
+    }
+    .name-block,
+    .about-block,
+    .aboutMe-block,
+    .portfolio-block,
+    .blog-block,
+    .contact-block {
+        position: relative;
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        width: 100%;
+        height: auto;
+        border: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+        display: table;
+        left: 0;
+        top: 0;
+    }
+    .contact-block {
+        border-bottom: none;
+    }
+    .name-block-container,
+    .about-block-container,
+    .aboutMe-block-container,
+    .portfolio-block-container,
+    .blog-block-container,
+    .contact-block-container {
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        padding: 0 0 0 0;
+    }
+    h2.menu-item {
+        line-height: 3em;
+        margin-bottom: 0;
+        display: block;
+    }
+    h2.menu-item:after {
+        position: absolute;
+        content: '';
+        top: 15px;
+        left: -20px;
+        width: 70px;
+        height: 1px;
+        background: #FFF;
+        transition: all 0.5s ease;
+    }
+    .social {
+        position: relative;
+        margin: 50px 0;
+    }
+    .inline-menu-container {
+        width: 100%;
+        left: 0;
+    }
+    .content-blocks {
+        height: 100vh;
+    }
+}
+
+@media (max-width: 812px) {
+    .social {
+        display: none;
+    }
+    .profile-picture {
+        margin-bottom: 30px;
+        max-width: 90%;
+        height: auto;
+    }
+    #lionhero {
+        height: 100vh;
+        position: fixed;
+    }
+    #lionhero .owl-nav {
+        display: none;
+    }
+    .menu2 .social {
+        bottom: 0;
+    }
+    .sidebar-menu,
+    .home-container {
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+    .sidebar-menu {
+        height: 50px;
+        z-index: 1;
+    }
+    .sidebar-menu.hidex {
+        top: -60px;
+    }
+    .menu4 .inline-menu {
+        position: relative;
+        text-align: center;
+        margin-top: 0;
+        width: 100%;
+    }
+    .menu4 .inline-menu li {
+        color: #f5f5f5;
+        font-size: 16px;
+        display: inline-block;
+        line-height: 50px;
+        padding: 0 10px;
+    }
+    .name-block {
+        padding-top: 30px;
+    }
+    .name-block,
+    .about-block,
+    .aboutMe-block,
+    .portfolio-block,
+    .blog-block,
+    .contact-block {
+        position: relative;
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        width: 100%;
+        height: auto;
+        border: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+        display: table;
+        left: 0;
+        top: 0;
+    }
+    .contact-block {
+        border-bottom: none;
+    }
+    .about-block:hover,
+    .aboutMe-block:hover,
+    .portfolio-block:hover,
+    .blog-block:hover,
+    .contact-block:hover {
+        border: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    }
+    .name-block-container,
+    .about-block-container,
+    .aboutMe-block-container,
+    .portfolio-block-container,
+    .blog-block-container,
+    .contact-block-container {
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        padding: 0 0 0 0;
+    }
+    h2.menu-item {
+        line-height: 3em;
+        margin-bottom: 0;
+        display: block;
+    }
+    h2.menu-item:after {
+        position: absolute;
+        content: '';
+        top: 15px;
+        left: -20px;
+        width: 70px;
+        height: 1px;
+        background: #FFF;
+        transition: all 0.5s ease;
+    }
+    .menu-block:hover h2.menu-item:before {
+        top: -40px;
+        left: -20px;
+    }
+    .menu-block:hover h2.menu-item:after {
+        top: 15px;
+        left: -20px;
+    }
+    .menu-block:hover {
+        background: rgba(0, 0, 0, 0);
+    }
+    .social {
+        position: relative;
+        margin: 50px 0;
+    }
+    .menu4 .social {
+        bottom: 0;
+    }
+    .menu4 .content-blocks,
+    .content-blocks {
+        width: 100%;
+        left: 0;
+    }
+     .menu4 .content-blocks.pop {
+        left: 100%;
+    }
+    .menu4 .content-blocks.pop.showx,
+    .content-blocks.pop.showx {
+        left: 0;
+    }
+    .menu4 .close-pop,
+    .close-pop {
+        right: 0;
+        width: 100%;
+    }
+    .inline-menu-container {
+        width: 100%;
+        left: 0;
+    }
+}
+
 @media (max-width:800px) {
+    .profile-picture {
+        margin-bottom: 30px;
+        max-width: 90%;
+        height: auto;
+    }
     #lionhero {
         height: 100vh;
         position: fixed;
@@ -2938,6 +3227,11 @@ h4.package {
 }
 
 @media (max-width:767px) {
+    .profile-picture {
+        margin-bottom: 30px;
+        max-width: 90%;
+        height: auto;
+    }
     .home {
         overflow-y: scroll;
     }
@@ -3022,6 +3316,11 @@ h4.package {
 }
 
 @media (max-width:640px) {
+    .profile-picture {
+        margin-bottom: 30px;
+        max-width: 90%;
+        height: auto;
+    }
     .author-box .col-sm-2,
     .author-box .col-sm-10 {
         width: 100%;
@@ -3038,6 +3337,11 @@ h4.package {
 }
 
 @media (max-width:576px) {
+    .profile-picture {
+        margin-bottom: 30px;
+        max-width: 90%;
+        height: auto;
+    }
     .menu4 .inline-menu li {
         font-size: 14px;
         padding: 0 7px;
@@ -3204,6 +3508,14 @@ h4.package {
 }
 
 @media (max-width:375px) {
+    .tags {
+        font-size: 14px;
+    }
+    .profile-picture {
+        margin-bottom: 30px;
+        max-width: 90%;
+        height: auto;
+    }
     .inline-menu-container {
         font-size: 12px;
     }
@@ -3359,6 +3671,11 @@ h4.package {
 }
 
 @media (max-width:360px) {
+    .profile-picture {
+        margin-bottom: 30px;
+        max-width: 90%;
+        height: auto;
+    }
     .inline-menu-container {
         font-size: 10px;
     }
@@ -3509,6 +3826,11 @@ h4.package {
 }
 
 @media (max-width:320px) {
+    .profile-picture {
+        margin-bottom: 30px;
+        max-width: 90%;
+        height: auto;
+    }
     .inline-menu-container {
         font-size: 10px;
     }
