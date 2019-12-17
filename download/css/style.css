@@ -2581,6 +2581,9 @@ h4.package {
 }
 
 @media (max-width:1024px) {
+    .social {
+        bottom: 10%;
+    }
     .profile-picture {
         margin-bottom: 30px;
         max-width: 90%;
