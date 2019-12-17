@@ -1064,7 +1064,7 @@ h2.menu-item:after {
 .aboutMe-block {
     position: absolute;
     width: 430px;
-    height: 300px;
+    height: 255px;
     border: 1px solid rgba(255, 255, 255, 0.4);
     display: table;
     transition: all 0.5s;
@@ -1077,6 +1077,7 @@ h2.menu-item:after {
 
 .aboutMe-block:hover {
     border: 15px solid rgba(255, 255, 255, 0.1);
+    box-sizing: border-box;
 }
 
 .aboutMe-block-container {
