@@ -42,7 +42,7 @@ body {
     color: #727272;
     font-size: 16px;
     font-weight: 300;
-    line-height: 2.2;
+    /* line-height: 2.2; */
     overflow-x: hidden;
 }
 
@@ -661,6 +661,7 @@ h2.menu-item:after {
 
 .menu-block:hover {
     background: rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
 }
 
 /* --- Inline Menu --- */
@@ -978,8 +979,9 @@ h2.menu-item:after {
 
 .name-block-container {
     display: table-cell;
-    vertical-align: middle;
+    /* vertical-align: middle; */
     padding-left: 240px;
+    padding-top: 50px;
     -ms-transform: rotate(34deg);
     -webkit-transform: rotate(34deg);
     transform: rotate(34deg);
