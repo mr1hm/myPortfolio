@@ -2771,11 +2771,13 @@ h4.package {
         -ms-transform: rotate(-34deg);
         -webkit-transform: rotate(-34deg);
         transform: rotate(-34deg);
-        left: 773px;
+        left: 772px;
         top: 428px;
+        width: 430px;
+        height: 300px;
     }
     .aboutMe-block-container {
-        padding: 65px 170px 0 15px;
+        padding: 100px 170px 0 15px;
     }
     .portfolio-block {
         -ms-transform: rotate(-34deg);
