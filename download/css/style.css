@@ -2760,6 +2760,10 @@ h4.package {
         left: -190px;
         top: 10px;
     }
+    .name-block-container {
+        padding-left: 240px;
+        padding-top: 120px;
+    }
     .about-block {
         -ms-transform: rotate(-34deg);
         -webkit-transform: rotate(-34deg);
@@ -2797,8 +2801,10 @@ h4.package {
         -ms-transform: rotate(-34deg);
         -webkit-transform: rotate(-34deg);
         transform: rotate(-34deg);
-        left: 9px;
-        top: 780px;
+        left: 287px;
+        top: 264px;
+        width: 300px;
+        height: 300px;
     }
     .project {
         width: 50%;
