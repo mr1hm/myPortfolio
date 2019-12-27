@@ -140,10 +140,11 @@
 	    $('.menu-item').removeClass('active');
 	    $('.menu-item.blog').addClass('active');
 	});
-	//On Click Open Contact Block
+	//On Click Open Contact Block -> Changed selector to '.content-blocks.about' from '.content-blocks.contact' to open up resume contact info
 	$('.contact-block, .menu-item.contact').on('click', function() {
 	    $('.content-blocks').removeClass('showx');
-	    $('.content-blocks.contact').addClass('showx');
+			$('.content-blocks.about').addClass('showx');
+			$('.contactClick').addClass('contactHighlight');
 	    $('.menu-item').removeClass('active');
 	    $('.menu-item.contact').addClass('active');
 	});
