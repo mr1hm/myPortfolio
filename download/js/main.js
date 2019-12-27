@@ -115,7 +115,8 @@
 	//On Click Open About/Resume Block
 	$('.about-block, .menu-item.about').on('click', function() {
 	    $('.content-blocks').removeClass('showx');
-	    $('.content-blocks.about').addClass('showx');
+			$('.content-blocks.about').addClass('showx');
+			$('.contactClick').removeClass('contactHighlight');
 	    $('.menu-item').removeClass('active');
 	    $('.menu-item.about').addClass('active');
 	});
