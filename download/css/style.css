@@ -1095,6 +1095,10 @@ h2.menu-item:after {
 
 -------------------------------------------------------------------*/
 
+.contactHighlight {
+    background-color: yellow;
+}
+
 .workTitle h4 {
     letter-spacing: 0.5px;
 }
