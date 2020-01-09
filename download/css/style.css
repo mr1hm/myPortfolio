@@ -1095,6 +1095,10 @@ h2.menu-item:after {
 
 -------------------------------------------------------------------*/
 
+.phone-number {
+    color: #007bff!important;
+}
+
 .contactHighlight {
     background-color: yellow;
 }
