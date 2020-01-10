@@ -2380,9 +2380,21 @@ h4.package {
     .aboutMe-block {
         -ms-transform: rotate(-34deg);
         -webkit-transform: rotate(-34deg);
-        transform: rotate(-34deg);
+        transform: translateY(-19px) translateX(495px) rotate(-34deg);
         left: 702px;
         top: -60px;
+        height: 275px;
+    }
+    .aboutMe-block-container {
+        padding: 120px 0 0 25px;
+    }
+    .name-block-container {
+        padding-left: 200px;
+        padding-top: 221px;
+    }
+    .blog-block-container {
+        padding-left: 10px;
+        padding-top: 50px;
     }
     .portfolio-block {
         -ms-transform: rotate(-34deg);
